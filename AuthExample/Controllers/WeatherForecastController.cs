@@ -24,6 +24,9 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
+    /// <summary>
+    /// Тут всё будет норм, т.к. авторизация не требуется.
+    /// </summary>
     [HttpGet("nonAuth")]
     public IEnumerable<WeatherForecast> GetNonAuth()
     {
@@ -36,6 +39,9 @@ public class WeatherForecastController : ControllerBase
             .ToArray();
     }
     
+    /// <summary>
+    /// Тут верёт 401, т.к. нужна авторизация, а у нас её нет.
+    /// </summary>
     [HttpGet]
     [Authorize]
     public IEnumerable<WeatherForecast> GetAuth()
