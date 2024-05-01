@@ -1,5 +1,7 @@
 namespace Auth;
 
+using System;
+
 public class WeatherForecast
 {
     public DateOnly Date { get; set; }
