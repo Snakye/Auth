@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityAndPrincipalAuth", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsAuth", "ClaimsAuth\ClaimsAuth.csproj", "{D5373028-32AC-42E5-B817-CF88CB535092}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBasedAuth", "RoleBasedAuth\RoleBasedAuth.csproj", "{44D263CB-4CB2-4AC1-B115-24EBB013A2BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,5 +49,9 @@ Global
 		{D5373028-32AC-42E5-B817-CF88CB535092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5373028-32AC-42E5-B817-CF88CB535092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5373028-32AC-42E5-B817-CF88CB535092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D263CB-4CB2-4AC1-B115-24EBB013A2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D263CB-4CB2-4AC1-B115-24EBB013A2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D263CB-4CB2-4AC1-B115-24EBB013A2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D263CB-4CB2-4AC1-B115-24EBB013A2BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
